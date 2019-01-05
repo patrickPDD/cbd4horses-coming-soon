@@ -23,6 +23,8 @@ $("#cspio-content").one(
   }
 );
 
+console.log("this works");
+const contactRef = firebase.database().ref("contacts");
 // form
 
 //listen for form submit
@@ -62,9 +64,6 @@ var config = {
   messagingSenderId: "321951766420"
 };
 firebase.initializeApp(config);
-
-console.log("this works");
-const contactRef = firebase.database().ref("contacts");
 
 //save contact to firebase
 
