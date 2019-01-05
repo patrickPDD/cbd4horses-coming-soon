@@ -7,4 +7,4 @@ install:
  — npm install -g firebase-tools
 after_success:
  — firebase deploy — project cbd4horses-47217
-— token $FIREBASE_TOKEN.
+— token $FIREBASE_TOKEN
