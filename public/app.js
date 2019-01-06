@@ -63,7 +63,7 @@ var config = {
   storageBucket: "cbd4horses-47217.appspot.com",
   messagingSenderId: "321951766420"
 };
-firebase.initializeApp(config);
+// firebase.initializeApp(config);
 
 //save contact to firebase
 
