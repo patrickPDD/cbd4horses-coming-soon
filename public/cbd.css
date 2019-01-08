@@ -454,7 +454,7 @@ body {
 } */
 
 /* Mobile */
-@media (pointer: coarse) {
+@media only screen and (max-device-width: 480px), (pointer: coarse) {
   html {
     background-image: none;
     background-color: #555;
